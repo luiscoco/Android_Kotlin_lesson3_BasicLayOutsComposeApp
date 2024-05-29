@@ -2,6 +2,16 @@
 
 https://developer.android.com/develop/ui/compose/layouts/basics
 
+Often these **building blocks** are all you need
+
+You can write your own composable function to combine these layouts into a more elaborate layout that suits your app
+
+![image](https://github.com/luiscoco/Android_Kotlin_lesson3_BasicLayOutsComposeApp/assets/32194879/3c46b665-6289-41a6-a106-ac5a565bed7d)
+
+**Android Compose** handles **nested layouts** efficiently, making them a great way to design a complicated UI
+
+This is an improvement from **Android Views**, where you need to avoid nested layouts for performance reasons.
+
 ## 1. My first layout sample: Adding a Column with two Text components
 
 ![image](https://github.com/luiscoco/Android_Kotlin_lesson3_BasicLayOutsComposeApp/assets/32194879/abdfff75-490a-415e-ba26-b074ca0b7dab)
