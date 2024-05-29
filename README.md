@@ -61,9 +61,22 @@ fun ArtistAvatar(artist: Artist) {
 }
 ```
 
-## 4. 
+## 4. We can use Alignment
 
+![image](https://github.com/luiscoco/Android_Kotlin_lesson3_BasicLayOutsComposeApp/assets/32194879/d9f26de8-17d4-43e1-a4e8-6c61d204575e)
 
+```kotlin
+@Composable
+fun ArtistCardArrangement(artist: Artist) {
+    Row(
+        verticalAlignment = Alignment.CenterVertically,
+        horizontalArrangement = Arrangement.End
+    ) {
+        Image(bitmap = artist.image, contentDescription = "Artist image")
+        Column { /*...*/ }
+    }
+}
+```
 
 ## 5. 
 
